@@ -30,3 +30,5 @@ def newton_interpolador(x, y, p): #onde x são os pontos, y = f(x) e p é uma li
             aux[j] += np.prod(p[j] - x[0:i+1]) * M[i]
     
     return y[0] + aux #f(p)
+
+Caralho eu posso editar
